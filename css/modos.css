@@ -1,0 +1,236 @@
+/*boton de modo oscuro*/
+.switch-button {
+    display: inline-block;
+}
+.switch-button .switch-button__checkbox {
+    display: none;
+}
+.switch-button .switch-button__label {
+	margin-top: .3rem;
+	margin-left: .2rem;
+    background-color: #F0F2F5;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+.switch-button .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:#191919;
+    content: "☀️";
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px #191919 ;
+    cursor:pointer;
+    transition: .3s ease all;
+     text-shadow: 2px 1px 1px #9daef5;
+}
+.switch-button .switch-button__label:hover::before{
+
+	 box-shadow: 0px 0px 0px 1px #191919;
+
+}
+
+body.dark .switch-button .switch-button__label:before{
+    content: "🌙";
+    
+    text-shadow: 2px 1px 1px #9daef5;
+	background-color:#F0F2F5;
+	box-shadow: inset 0px 0px 0px 1px #F0F2F5;
+     transition: .3s ease all;
+}
+
+body.dark .switch-button .switch-button__label:hover::before{
+	 box-shadow: 0px 0px 0px 1px #F0F2F5;
+}
+
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color:#191919;
+}
+
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+}
+
+
+/*boton de modo alatorio*/
+.switch-button1 {
+    display: inline-block;
+}
+.switch-button1 .switch-button__checkbox {
+    display: none;
+}
+.switch-button1 .switch-button__label {
+    margin-top: .3rem;
+    margin-left: .2rem;
+    background-color: #F0F2F5;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+.switch-button1 .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:#191919;
+    content:"📷";
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px #191919 ;
+    cursor:pointer;
+    transition: .3s ease all;
+     text-shadow: 1px 1px 2px #9daef5;
+}
+.switch-button1 .switch-button__label:hover::before{
+     box-shadow: 0px 0px 0px 1px #191919;
+}
+
+body.rand .switch-button1 .switch-button__label:before{
+    content: "📸";
+    text-shadow: 1px 1px 1px #9daef5;
+    background-color:#F0F2F5;
+    box-shadow: inset 0px 0px 0px 1px #F0F2F5;
+}
+
+body.rand .switch-button1 .switch-button__label:hover::before{
+     box-shadow: 0px 0px 0px 1px #F0F2F5;
+}
+
+.switch-button1 .switch-button__checkbox:checked + .switch-button__label {
+    background-color:#191919;
+}
+
+.switch-button1 .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+}
+
+/**/
+.switch-button2 {
+    display: inline-block;
+}
+.switch-button2 .switch-button__checkbox {
+    display: none;
+}
+.switch-button2 .switch-button__label {
+    margin-top: .3rem;
+    margin-left: .2rem;
+    background-color: #F0F2F5;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+.switch-button2 .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:#191919;
+    content: '💻';
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px #191919 ;
+    cursor:pointer;
+    transition: .3s ease all;
+    text-shadow: 1px 1px 2px #9daef5;
+}
+.switch-button2 .switch-button__label:hover::before{
+     box-shadow: 0px 0px 0px 1px #191919;
+}
+
+body.tw .switch-button2 .switch-button__label:before{
+    content: "👨‍💻";
+    text-shadow: 1px 1px 1px #9daef5;
+    background-color:#F0F2F5;
+    box-shadow: inset 0px 0px 0px 1px #F0F2F5;
+}
+
+body.tw .switch-button2 .switch-button__label:hover::before{
+     box-shadow: 0px 0px 0px 1px #F0F2F5;
+}
+
+.switch-button2 .switch-button__checkbox:checked + .switch-button__label {
+    background-color:#191919;
+}
+
+.switch-button2 .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+}
+
+/*vine*/
+.switch-button3 {
+    display: inline-block;
+}
+.switch-button3 .switch-button__checkbox {
+    display: none;
+}
+.switch-button3 .switch-button__label {
+    margin-top: .3rem;
+    margin-left: .2rem;
+    background-color: #F0F2F5;
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+.switch-button3 .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:#191919;
+    content: '🎬';
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px #191919 ;
+    cursor:pointer;
+    transition: .3s ease all;
+     text-shadow: 1px 1px 2px #9daef5;
+}
+.switch-button3 .switch-button__label:hover::before{
+     box-shadow: 0px 0px 0px 1px #191919;
+}
+
+body.vine .switch-button3 .switch-button__label:before{
+    content: "🤳";
+    text-shadow: 1px 1px 1px #9daef5;
+    background-color:#F0F2F5;
+    box-shadow: inset 0px 0px 0px 1px #F0F2F5;
+}
+
+body.vine .switch-button3 .switch-button__label:hover::before{
+     box-shadow: 0px 0px 0px 1px #F0F2F5;
+}
+
+.switch-button3 .switch-button__checkbox:checked + .switch-button__label {
+    background-color:#191919;
+}
+
+.switch-button3 .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculadora</title>
+	<link rel="icon" type="image/png" href="img/calculadora.png" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/resolucion.css">
+	<link rel="stylesheet" type="text/css" href="css/modos.css">
+	<link href='https://css.gg/clapper-board.css' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+	<div class="calculadora">
+		<div class="switch-button">
+    		<!-- Checkbox -->
+    		<input type="checkbox" name="switch-button" id="switch-label" class="switch-button__checkbox">
+    		<!-- Botón -->
+    		<label for="switch-label" class="switch-button__label"></label>
+		</div>
+
+		<div class="switch-button1">
+    		<!-- Checkbox -->
+    		<input type="checkbox" name="switch-button1" id="switch-label1" class="switch-button__checkbox">
+    		<!-- Botón -->
+    		<label for="switch-label1" class="switch-button__label"></label>
+		</div>
+
+		<div class="switch-button2">
+    		<!-- Checkbox -->
+    		<input type="checkbox" name="switch-button2" id="switch-label2" class="switch-button__checkbox">
+    		<!-- Botón -->
+    		<label for="switch-label2" class="switch-button__label"></label>
+		</div>
+
+		
+		<div class="switch-button3">
+    		<!-- Checkbox -->
+    		<input type="checkbox" name="switch-button3" id="switch-label3" class="switch-button__checkbox">
+    		<!-- Botón -->
+    		<label for="switch-label3" class="switch-button__label"></label>
+		</div>
+
+
+		<div class="pantalla">
+			<div id="resultado" >0</div>	
+		</div>
+
+		<div class="teclas">
+
+			<div class="numeros">
+				<div class="valor">
+					<button id="b">AC</button>
+					<button id="negativos">±</button>
+					<button id="prociento">%</button>
+				</div>
+
+				<div>
+					<button id="n7">7</button>
+					<button id="n8">8</button>
+					<button id="n9">9</button>
+				</div>
+				<div>
+					<button id="n4">4</button>
+					<button id="n5">5</button>
+					<button id="n6">6</button>
+				</div>
+				<div>
+					<button id="n1">1</button>
+					<button id="n2">2</button>
+					<button id="n3">3</button>
+				</div>
+				<div>
+					<button id="n0">0</button>
+					<button id="punto">.</button>
+				</div>
+			</div>
+			<div class="op ">
+				<button id="d" class="">÷</button>
+				<button id="m">x</button>
+				<button id="r">-</button>
+				<button id="s">+</button>
+				<button id="igual">=</button>
+			</div>				
+		</div>
+		<div id="texto"></div>
+		<div id="creado">Mago Pato&#129414</div>
+	</div>
+	 <script type="text/javascript" src="js/funciones.js"></script>
+	<script type="text/javascript" src="js/modos.js"></script>
+	<div id="ultimo"></div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+body {
+    background: #F0F2F5;
+}
+body.dark {
+    background: #191919;
+}
+.calculadora {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 50%, rgba(255, 255, 255, 0.96) 0%);
+    width: fit-content;
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+    border: 3px solid #CED0D4;
+    transition: .3s ease all;
+}
+body.dark .calculadora {
+    background: #1c1c1c;
+    border: 3px solid #3E4042;
+}
+body.rand .calculadora {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+body.tw .calculadora {
+    background: #6441a5;
+}
+body.vine .calculadora {
+    background: #00a478;
+}
+.teclas {
+    display: flex;
+}
+.pantalla {
+    padding: 18px 18px 0px 18px;
+    margin-top: -16px;
+}
+#resultado {
+    background-color: #eee;
+    padding: 9px;
+    text-align: right;
+    font-size: 30px;
+    border-radius: 15px;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 4px #191919;
+}
+
+body.dark #resultado {
+    background: #191919;
+    color: #eee;
+    box-shadow: 5px 3px 5px #9daef5;
+}
+.numeros {
+    padding: 18px 9px 18px 18px;
+}
+.op {
+    padding: 18px 18px 18px 9px;
+}
+.op button {
+    text-align: center;
+    display: block;
+    width: 52px;
+    height: 52px;
+    padding: 8px 15px;
+    margin-left: -13.2px;
+    margin-bottom: 6px;
+    font-size: 26px;
+}
+#n0 {
+    width: 65.6%;
+    text-align: left;
+    border-radius: 30px 4px;
+}
+
+body.dark #n0{
+ border-radius: 4px 30px;   
+}
+/*border-radius: 4px 30px;   */
+body.rand #n0{
+    border-radius: 25px;
+}
+body.tw #n0{
+  border-radius: 250px 10px;   
+}
+body.vine #n0{
+border-radius: 12px 12px;
+}
+
+button {
+    margin: 3px 0;
+    padding: 15px 15px;
+    font-size: 19px;
+    border: 0px;
+    background-color: #eee;
+    border-radius: 50% 5%;
+    width: 52px;
+    height: 52px;
+    transition: all 0.9;
+    outline: none;
+    cursor: pointer;
+    text-shadow: 3px 2px 1px #9daef5;
+    transition: .3s ease all;
+}
+body.dark button {
+    background: #191919;
+    color: #eee;
+    border-radius: 5% 50%;
+    text-decoration: none;
+}
+/*border-radius: 5% 50%;*/
+body.rand button{
+ border-radius: 50% 50%;   
+}
+/*animation: cambio 0s alternate infinite ease  ;*/
+body.tw button{
+border-radius: 50px 0px 50px 10px;
+}
+body.vine button{
+border-radius: 12px 12px; 
+}   
+button:hover {
+    box-shadow: 0px 0px 12px #aaa;
+    background-color: #000;
+    color: #fff;
+}
+body.dark button:hover {
+    box-shadow: 0px 0px 12px #191919;
+    background-color: #eee;
+    color: #000;
+}
+#texto {
+    margin-top: -20px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 18.5px;
+    font-size: 20px;
+    transition: .3s ease all;
+    color: #eee;
+     text-shadow: 3px 2px 1px #9daef5;
+}
+body.dark #texto {
+    color: #eee;
+}
+#creado {
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-right: 4px;
+    margin-left: 12.5px;
+    font-family: arial;
+    color: #191919;
+    text-align: center;
+    text-shadow: 3px 2px 1px #9daef5;
+}
+body.dark #creado, body.vine #creado, body.tw #creado, body.rand #creado {
+    margin-top: -11px;
+    color: #eee;
+}
+
+#ultimo+div {
+    visibility: hidden;
+}
